@@ -10,7 +10,7 @@
 
 # 🚀 Access
 
-The website is hosted by `GitHub Pages` at: https://ygg-m.github.io/angular-buzzfeed/
+The website is hosted by `Netlify` at: https://angular-buzzfeed.netlify.app/angular-buzzfeed/
 
 # 🎯 Goals
 
