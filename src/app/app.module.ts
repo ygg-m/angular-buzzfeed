@@ -7,16 +7,9 @@ import { QuizzComponent } from './Components/quizz/quizz.component';
 import { HomeComponent } from './Pages/home/home.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    QuizzComponent,
-    HomeComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, QuizzComponent, HomeComponent],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
