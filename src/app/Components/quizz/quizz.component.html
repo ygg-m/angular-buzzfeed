@@ -1,16 +1,16 @@
 <div class="quizz__container">
-  <h3>Title</h3>
+  <h3>{{ title }}</h3>
   <div class="questions">
-    <h3>Selected Question</h3>
+    <h3>{{ questionSelected.question }}</h3>
   </div>
 
   <div class="options">
-    <button class="btn-option">Option Name</button>
-    <button class="btn-option">Option Name</button>
-    <button class="btn-option">Option Name</button>
+    <button class="btn-option" *ngFor="let option of questionSelected.options">
+      {{ option.name }}
+    </button>
   </div>
 
-  <div class="results">
+  <div class="results" *ngIf="finished">
     <h2>Your results are:</h2>
     <p>Selected answer</p>
   </div>
