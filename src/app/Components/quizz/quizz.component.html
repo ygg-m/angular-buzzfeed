@@ -1,17 +1,22 @@
 <div class="quizz__container">
   <h3>{{ title }}</h3>
-  <div class="questions">
+
+  <div class="questions" *ngIf="!finished">
     <h3>{{ questionSelected.question }}</h3>
   </div>
 
-  <div class="options">
-    <button class="btn-option" *ngFor="let option of questionSelected.options">
+  <div class="options" *ngIf="!finished">
+    <button
+      class="btn-option"
+      *ngFor="let option of questionSelected.options"
+      (click)="playerChoice(option.alias)"
+    >
       {{ option.name }}
     </button>
   </div>
 
   <div class="results" *ngIf="finished">
     <h2>Your results are:</h2>
-    <p>Selected answer</p>
+    <p>{{ answerSelected }}</p>
   </div>
 </div>
