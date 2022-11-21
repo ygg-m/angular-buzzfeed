@@ -10,12 +10,11 @@
 
 # 🚀 Access
 
-The website will be hosted at `GitHub Pages` at: https://ygg-m.github.io/angular-buzzfeed/
-But it's not yet implemented.
+The website is hosted by `GitHub Pages` at: https://ygg-m.github.io/angular-buzzfeed/
 
 # 🎯 Goals
 
-- [ ] Build base HTML/CSS
-- [ ] Build base code for the questions
-- [ ] Finish the app
-- [ ] Publish it at GitHub Pages
+- [x] Build base HTML/CSS
+- [x] Build base code for the questions
+- [x] Finish the app
+- [x] Publish it at GitHub Pages
