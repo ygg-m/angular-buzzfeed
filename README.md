@@ -6,7 +6,7 @@
 # ✨ About this
 
 - This is a `fun project` made in Angular with the objective of learning more about the Framework.
-- Build it as a project from [DIO Bootcamp](https://www.dio.me/en).
+- Built it as a project from [DIO Bootcamp](https://www.dio.me/en).
 
 # 🚀 Access
 
