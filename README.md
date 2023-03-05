@@ -10,7 +10,7 @@
 
 # 🚀 Access
 
-The website is hosted by `Netlify` at: https://angular-buzzfeed.netlify.app/angular-buzzfeed/
+The website is hosted by `Netlify` at: https://angular-buzzfeed.netlify.app/
 
 # 🎯 Goals
 
